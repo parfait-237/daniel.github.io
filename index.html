@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <title>FINDDOC</title>
+
+</head>
+
+<body class="bg-primary-50">
+    <!--  header      -->
+
+    <header class="h-[4rem] bg-white shadow-md padding-page flex justify-between items-center static">
+        <a class="text-4xl font-bold uppercase text-primary-main" href="index.html">Find<span
+                class="text-primary-500">Doc</span></a>
+        <input class="hidden" type="checkbox" name="input" id="menu-icon">
+        <label class="text-2xl lg:hidden cursor-pointer" for="menu-icon"><i
+                class="fa-solid fa-bars text-primary-900"></i></label>
+        <div id="links" class=" links -translate-x-full lg:-translate-x-0 flex w-[100%] inset-0 lg:justify-between fixed lg:relative bg-gradient-to-r lg:from-white lg:to-white from-main to-secondary 
+            flex-col pt-16 px-5 lg:pt-0 lg:px-0 lg:flex-row transition duration-500 ease-in-out ">
+            <div id="menu-close"
+                class="absolute lg:hidden text-4xl md:text-5xl font-bold right-3 top-3 text-white cursor-pointer">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class=" flex justify-around lg:mb-0 mb-5  items-center space-x-12 ml-0 lg:ml-5 ">
+                <div class="flex items-center border-2 px-3 py-2 rounded-md w-full bg-main lg:bg-white">
+                    <i class="fas fa-search text-gray-200 lg:text-primary-500 mr-3 text-base"></i>
+                    <input class="input-el border-none w-full lg:text-main text-white bg-transparent"
+                        placeholder="search document" type="search">
+                </div>
+                <div class="flex justify-between items-center text-primary-700 px-14 ">
+                    <a class="mx-2 text-white lg:text-primary-main flex flex-nowrap "
+                        href="index.html">ACCEUIL</a>
+                    <a class="mx-2 text-white lg:text-primary-main flex flex-nowrap "
+                        href="contact.html">CONTACT</a>
+                        <a class="text-white lg:text-primary-main flex flex-nowrap"
+                         href="#"><span>CATEGORIES</span><i class="fas fa-sort-down ml-1"></i></a>
+                </div>
+            </div>
+            <div class="flex space-x-3">
+                <a class="bg-white hover:bg-white text-black hover:bg-primary-900 hover:text-white 
+                ù border-2 px-3 py-2 rounded-md " href="connect.html">Login</a>
+                <a class="uppercase border-2 rounded-md py-2 px-3 text-white bg-primary-900 hover:bg-white hover:text-black"
+                    href="register.html">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!--hero section-->
+
+    <section class="grid md:grid-cols-2 lg:grid-cols-2 md:gap-8 gap-2 px-6 lg:px-20 md:px-10 py-3">
+        <div class="py-5">
+            <div class="text-primary-900 uppercase px-4">
+                PLATE FORME DE RECHERCHE ET SAUVEGARDE DE DOCUMENTS PERSONNELS.
+            </div>
+            <div class="text-primary-main">
+                La gestion de documents est le processus de stockage, et de suivi des documents electroniques qui contiennent
+                des informations à plusieurs fins. Une fois cele géré, vous pouvez etre sur que vos documents ne disparaitrons
+                jamais. Ainsi, find doc vous permet de rationnaliser le flux de vos document et faciliter l'accessibilité en tout
+                temps et en tout lieux.
+                il vous permet de télécharger, indexer, rechercher, et securiser vos documents personnels telsque: cni, passeports, diplomes..
+            </div>
+            <div class="flex space-x-3 py-4">
+                <a class="bg-white hover:bg-white text-black hover:bg-primary-900 hover:text-white 
+                ù border-2 px-3 py-2 rounded-md" href="find.html">CHERCHER UN DOCUMENT</a>
+                <a class="uppercase border-2 rounded-md py-2 px-3 text-white bg-primary-900 hover:bg-white hover:text-black"" href="
+                    add.html">AJOUTER UN DOCUMENT</a>
+                    <a class="bg-white hover:bg-white text-black hover:bg-primary-900 hover:text-white 
+                    ù border-2 px-3 py-2 rounded-md" href="#">VOIR MES DOCUMENTS</a>
+            </div>
+        </div>
+        <div class=" justify-around flex items-center w-[350px]">
+            <img id="chn" class=" w-[340px]" src="img/find1.png">
+        </div>
+
+    </section>
+
+    <!--  caroussel      -->
+
+    <section >
+        <div class="contenaire-fluid my-4 padding-page">
+            <h3 class="padding-page text-primary-main">DOCUMENTS RETROUVÉS RECEMMENT</h3>
+            <div class="row mt-5 ">
+                
+                <div class="owl-carousel owl-theme">
+                    <div class="item mb-4 hover:translate-y-2">
+                        <div class="card border-0 shadow w-60">
+                            <img src="img/cni1.jpg" alt="">
+                            <div class="card-body h-28">
+                                <div class="phone-category">
+                                    <div class="category my-3 text-primary-main">
+                                        <div>
+                                            <span><i class="fas fa-list mx-3"></i></span>
+                                        National Identity Card
+                                        </div>
+                                       <div>
+                                        <span><i class="fas fa-phone mx-3"></i></span>
+                                        656937623
+                                       </div>
+                                       <div>
+                                        <span><i class="fas fa-street-view mx-3"></i></span>
+                                        pk9
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4 hover:translate-y-2">
+                        <div class="card border-0 shadow w-60">
+                            <img src="img/hero.png" alt="">
+                            <div class="card-body h-28">
+                                <div class="phone-category">
+                                    <div class="category my-3 text-primary-main">
+                                        <div>
+                                            <span><i class="fas fa-list mx-3"></i></span>
+                                        National Identity Card
+                                        </div>
+                                       <div>
+                                        <span><i class="fas fa-phone mx-3"></i></span>
+                                        656937623
+                                       </div>
+                                       <div>
+                                        <span><i class="fas fa-street-view mx-3"></i></span>
+                                        ndogbong
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4 hover:translate-y-2">
+                        <div class="card border-0 shadow w-60">
+                            <img src="img/pass1.jpg" alt="">
+                            <div class="card-body h-28">
+                                <div class="phone-category">
+                                    <div class="category my-3 text-primary-main">
+                                        <div>
+                                            <span><i class="fas fa-list mx-3"></i></span>
+                                        passeport
+                                        </div>
+                                       <div>
+                                        <span><i class="fas fa-phone mx-3"></i></span>
+                                        656937623
+                                       </div>
+                                       <div>
+                                        <span><i class="fas fa-street-view mx-3"></i></span>
+                                        bonanjo
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4 hover:translate-y-2">
+                        <div class="card border-0 shadow w-60">
+                            <img src="img/cni3.png" alt="">
+                            <div class="card-body h-28">
+                                <div class="phone-category">
+                                    <div class="category my-3 text-primary-main">
+                                        <div>
+                                            <span><i class="fas fa-list mx-3"></i></span>
+                                        National Identity Card
+                                        </div>
+                                       <div>
+                                        <span><i class="fas fa-phone mx-3"></i></span>
+                                        656937623
+                                       </div>
+                                       <div>
+                                        <span><i class="fas fa-street-view mx-3"></i></span>
+                                        pk9
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4 hover:translate-y-2">
+                        <div class="card border-0 shadow w-60">
+                            <img src="img/cni2.jpg" alt="">
+                            <div class="card-body h-28">
+                                <div class="phone-category">
+                                    <div class="category my-3 text-primary-main">
+                                        <div>
+                                            <span><i class="fas fa-list mx-3"></i></span>
+                                        National Identity Card
+                                        </div>
+                                       <div>
+                                        <span><i class="fas fa-phone mx-3"></i></span>
+                                        656937623
+                                       </div>
+                                       <div>
+                                        <span><i class="fas fa-street-view mx-3"></i></span>
+                                        pk9
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <!-- doc ajoutes recemment -->
+        <div class="contenaire-fluid my-4 padding-page">
+            <h3 class="padding-page text-primary-main">MES DOCUMENTS AJOUTÉS RECEMMENT</h3>
+            <div class="row mt-5 ">
+                <div class="owl-carousel owl-theme">
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow h-14">
+                            <img src="img/camtel.jpg" alt="">
+                            <div class="card-body text-primary-main">
+                                <h2>cni de mon ami</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/orange.png" alt="">
+                            <div class="card-body text-primary-main">
+                                <h2>cni</h2>
+                                <h2>cni de mon ami</h2>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/crtv.png" alt="">
+                            <div class="card-body text-primary-main">
+                                <h2>RELEVÉ DE NOTES</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/pass1.jpg" alt="">
+                            <div class="card-body text-primary-main">
+                                <h2>ACTE DE NAISSANCE</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/camtel.jpg" alt="">
+                            <div class="card-body text-primary-main">
+                                <h2>BEPC</h2>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="img/canal2.jpeg" alt="">
+                            <div class="card-body text-primary-main">
+                                <h2>probatoire</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- partners section-->
+
+    <div class="padding-page">
+        <h2 class="text-primary-main flex justify-center italic py-9 bottom-0">NOS PARTENAIRES</h2>
+    </div>
+    <section>
+        <div class="tl padding-page flex justify-center items-center py-4">
+            <div class="">
+                <img src="img/crtv.png">
+            </div>
+            <div class="">
+                <img src="img/canal2.jpeg">
+            </div>
+            <div class="">
+                <img src="img/camtel.jpg">
+            </div>
+            <div class="">
+                <img src="img/orange.png">
+            </div>
+            <div class="">
+                <img src="img/scb.jpg" >
+            </div>
+        </div>
+
+    </section>
+
+    <!--footer-->
+    <footer class="bg-white shadow-md padding-page ">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 gap-2 py-5">
+            <div class="grid text-primary-700">
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Get the app</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">About us</a>
+                <a class="transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="contact.html">Contact us</a>
+            </div>
+            <div class="grid text-primary-700 ">
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Blog</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Help and support</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Affiliate</a>
+            </div>
+            <div class="grid text-primary-700">
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Terms</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Privacy policy</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Accessibility statement</a>
+            </div>
+            <div class="">
+                <div class="">
+                    Follow us on social
+                </div>
+                <div class="flex space-x-3 ">
+                    <a class="facebook hover:-translate-y-1 hover:text-primary-face" href="#"><i
+                            class="fab fa-facebook"></i></a>
+                    <a class="whatsapp  hover:-translate-y-1 hover:text-primary-zap " href="#"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a class="twitter  hover:-translate-y-1 hover:text-primary-twitter " href="#"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="google  hover:-translate-y-1 hover:text-primary-google " href="#"><i
+                            class="fab fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 flex justify-between">
+            <a class="text-1xl font-bold uppercase text-primary-main" href="#">Find<span
+                    class="text-primary-500">Doc</span></a>
+            <span> © 2022 &nbsp;FINDDOC, Inc.</span>
+        </div>
+    </footer>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

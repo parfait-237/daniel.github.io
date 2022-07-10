@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-primary-50">
+
+    <header class="h-[4rem] bg-white shadow-md padding-page flex justify-between items-center static">
+        <a class="text-4xl font-bold uppercase text-primary-main" href="index.html">Find<span
+                class="text-primary-500">Doc</span></a>
+        <input class="hidden" type="checkbox" name="input" id="menu-icon">
+        <label class="text-2xl lg:hidden cursor-pointer" for="menu-icon"><i
+                class="fa-solid fa-bars text-primary-900"></i></label>
+        <div id="links" class=" links -translate-x-full lg:-translate-x-0 flex w-[100%] inset-0 lg:justify-between fixed lg:relative bg-gradient-to-r lg:from-white lg:to-white from-main to-secondary 
+            flex-col pt-16 px-5 lg:pt-0 lg:px-0 lg:flex-row transition duration-500 ease-in-out ">
+            <div id="menu-close"
+                class="absolute lg:hidden text-4xl md:text-5xl font-bold right-3 top-3 text-white cursor-pointer">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <div class=" flex justify-around lg:mb-0 mb-5  items-center space-x-12 ml-0 lg:ml-5 ">
+                <div class="flex items-center border-2 px-3 py-2 rounded-md w-full bg-main lg:bg-white">
+                    <i class="fas fa-search text-gray-200 lg:text-primary-500 mr-3 text-base"></i>
+                    <input class="input-el border-none w-full lg:text-main text-white bg-transparent"
+                        placeholder="search document" type="search">
+                </div>
+                <div class="flex justify-between items-center text-primary-700 px-14 ">
+                    <a class="mx-2 text-white lg:text-primary-main flex flex-nowrap "
+                        href="#">ACCEUIL</a>
+                    <a class="mx-2 text-white lg:text-primary-main flex flex-nowrap "
+                        href="contact.html">CONTACT</a>
+                        <a class="text-white lg:text-primary-main flex flex-nowrap"
+                         href="#"><span>CATEGORIES</span><i class="fas fa-sort-down ml-1"></i></a>
+                </div>
+            </div>
+            <div class="flex space-x-3">
+                <a class="bg-white hover:bg-white text-black hover:bg-primary-900 hover:text-white 
+                ù border-2 px-3 py-2 rounded-md " href="connect.html">Login</a>
+                <a class="uppercase border-2 rounded-md py-2 px-3 text-white bg-primary-900 hover:bg-white hover:text-black"
+                    href="register.html">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- <header class="h-[4rem] padding-page bg-white shadow-md flex justify-between items-center ">
+        <a class=" text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-primary-main" href="index.html">Find<span
+                class="text-primary-500">Doc</span></a>
+        <div class="flex items-center space-x-5">
+            <div class="categories">
+                <a class="dropdown-link" href="#">Categories &nbsp;<i class="fas fa-sort-down"></i></a>
+                <div class="dropdown">
+                    <a href="">Passport</a>
+                    <a href="">National Identity Card</a>
+                    <a href="">Birth certificate</a>
+                    <a href="">Diploma</a>
+                </div>
+            </div>
+            <div class="flex items-center border-2 px-3 py-2 rounded-md">
+                <i class="fas fa-search text-primary-500 mr-3 text-base"></i>
+                <input class="input-el border-none" placeholder="search document" type="search">
+            </div>
+        </div>
+        <div class="flex space-x-3">
+            <a class="bg-white hover:bg-white text-black hover:bg-primary-900 hover:text-white uppercase border-2 px-3 py-2 rounded-md "
+                href="connect.html">Login</a>
+            <a class="uppercase border-2 rounded-md py-2 px-3 text-white bg-primary-900 hover:bg-white hover:text-black"
+                href="register.html">Register</a>
+        </div>
+    </header> -->
+
+    <section class="padding-page min-h-[300px] flex justify-center py-10 items-center ">
+        <div
+            class="md:w-2/4 w-full lg:w-[450px] px-10 py-5 flex flex-col bg-white rounded-md shadow-md ">
+            <h2 class="self-center text-xl md:text-2xl lg:text-3xl" > Create an account using</h2>
+            <div class="flex justify-between py-4">
+                <a class="btn-social apple" href=""><i class="fa-brands fa-apple"></i></a>
+                <a class="btn-social google" href=""><i class="fa-brands fa-google"></i></a>
+                <a  class="btn-social facebook" href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="w-full mb-2 justify-center items-center flex before:h-0.5 before:w-full before:bg-primary-500 before:mr-2 after:h-0.5 after:w-full after:bg-primary-500 after:ml-2">
+                OR
+            </div>
+            <form action="">
+                <div class="mb-4">
+                    <div class="rounded-md px-3 py-2 border-2 flex focus-within:border-primary-900 focus-within:shadow-md">
+                        <i class="fa-solid fa-user text-primary-500 mr-3 text-base"></i>
+                        <input class="input-el border-none" type="text" id="name" placeholder="your name">
+                    </div>
+                    <p class="text-error-style">verifiez le nom</p>
+                </div>
+                <div class="mb-4">
+                    <div class="rounded-md px-3 py-2 border-2 flex focus-within:border-primary-900 focus-within:shadow-md">
+                        <i class="fa-regular fa-envelope text-primary-500 mr-3 text-base"></i>
+                        <input class="input-el border-none" type="email" id="email" placeholder="your email">
+                    </div>
+                    <p class="text-error-style">verifiez votre email</p>
+                </div>
+                <div class="mb-4">
+                    <div class="rounded-md px-3 py-2 border-2 flex focus-within:border-primary-900 focus-within:shadow-md">
+                        <i class="fa-solid fa-key text-primary-500 mr-3 text-base "></i>
+                        <input class="input-el border-none" type="password" id="password" placeholder="create a password">
+                    </div>
+                    <p class="text-error-style">créer un mot de passe</p>
+                </div>
+                <div class="mb-4">
+                    <div class="rounded-md px-3 py-2 border-2 flex focus-within:border-primary-900 focus-within:shadow-md">
+                        <i class="fa-solid fa-key text-primary-500 mr-3 text-base "></i>
+                        <input class="input-el border-none" type="password" id="password" placeholder="confirm password">
+                    </div>
+                </div>
+                <button class="uppercase border-2 rounded-md py-2 px-3 text-white bg-primary-900 hover:bg-white hover:text-primary-main" type="submit">create account</button>
+               <div class="flex justify-end text-primary-700 hover:text-primary-900 my-4">
+                <a href="connect.html">I have an account</a>
+               </div>
+            </form>
+           
+        </div>
+    </section>
+
+    <!-- <section class="0 my-40 flex justify-center items-center">
+        <form class=" shadow-md rounded px-9 pt-6 pb-8 mb-4" method="GET">
+            <div class="text-primary-900">
+                RENSEIGNEZ VOS INFORMATIONS
+            </div><br>
+            <div class="my-3">
+                <div class="flex items-center border-2 px-3 py-2 rounded-md">
+                    <i class="fas fa-user-circle text-primary-500 mr-3 text-base"></i>
+                    <input class="input-el border-none" placeholder="Enter your name" type="search">
+                </div>
+                <div class="flex items-center border-2 px-3 py-2 rounded-md">
+                    <i class="fa-solid fa-cake-candles text-primary-500 mr-3 text-base"></i>
+                    <input class="input-el border-none" placeholder="Your Birth Day" id="Birth-Day" name="Birth Day"
+                        type="number">
+                </div>
+                <div class="flex items-center border-2 px-3 py-2 rounded-md">
+                    <i class="fas fa-envelope-square text-primary-500 mr-3 text-base"></i>
+                    <input class="input-el border-none" placeholder="email address" id="email" name="email"
+                        type="email">
+                </div>
+                <div class="flex items-center border-2 px-3 py-2 rounded-md">
+                    <i class="fas fa-mobile text-primary-500 mr-3 text-base"></i>
+                    <input class="input-el border-none" placeholder="phone number" id="phone" name="phone"
+                        type="number">
+                </div>
+                <div class="flex items-center border-2 px-3 py-2 rounded-md">
+                    <i class="fa-solid fa-key text-primary-500 mr-3 text-base"></i>
+                    <input class="input-el border-none" placeholder="Create a Password" id="Password" name="Password"
+                        type="password">
+                </div><br>
+            </div>
+
+            <button
+                class="bg-primary-900 text-white hover:text-black hover:bg-white uppercase border-2 px-3 py-2 rounded-md"
+                type="submit">create account</button>
+            <br>
+            <div>
+                <a class="flex items-center justify-end" href=""> i have account</a>
+            </div>
+
+        </form>
+    </section> -->
+
+    <!--footer-->
+    <footer class="bg-white shadow-md padding-page ">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 md:gap-4 gap-2 py-5">
+            <div class="grid text-primary-700">
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Get the app</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">About us</a>
+                <a class="transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Contact us</a>
+            </div>
+            <div class="grid text-primary-700 ">
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Blog</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Help and support</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Affiliate</a>
+            </div>
+            <div class="grid text-primary-700">
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Terms</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main  hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Privacy policy</a>
+                <a class=" transition ease-in-out delay-15 hover:text-primary-main hover:-translate-y-1 hover:scale-110 duration-300 "
+                    href="#">Accessibility statement</a>
+            </div>
+            <div class="">
+                <div class="">
+                    Follow us on social
+                </div>
+                <div class="flex space-x-3 ">
+                    <a class="facebook hover:-translate-y-1 hover:text-primary-face" href="#"><i
+                            class="fab fa-facebook"></i></a>
+                    <a class="whatsapp  hover:-translate-y-1 hover:text-primary-zap " href="#"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a class="twitter  hover:-translate-y-1 hover:text-primary-twitter " href="#"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="google  hover:-translate-y-1 hover:text-primary-google " href="#"><i
+                            class="fab fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 flex justify-between">
+            <a class="text-1xl font-bold uppercase text-primary-main" href="#">Find<span
+                    class="text-primary-500">Doc</span></a>
+            <span> © 2022 &nbsp;FINDDOC, Inc.</span>
+        </div>
+    </footer>
+</body>
+
+</html>
